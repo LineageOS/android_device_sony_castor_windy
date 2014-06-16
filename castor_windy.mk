@@ -21,4 +21,4 @@ $(call inherit-product, device/sony/castor_windy/castor-common.mk)
 BOARD_HAVE_RADIO := false
 	
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/castor/castor-vendor.mk)
+$(call inherit-product, vendor/sony/castor_windy/castor_windy-vendor.mk)
