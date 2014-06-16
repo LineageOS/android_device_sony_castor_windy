@@ -1,5 +1,5 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),castor)
+ifeq ($(TARGET_DEVICE),castor_windy)
     include $(call first-makefiles-under,$(LOCAL_PATH))
 endif
