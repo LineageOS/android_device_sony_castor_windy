@@ -21,9 +21,9 @@ include device/sony/shinano-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGP511,SGP512,SGP521,castor
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/castor/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/castor_windy/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/castor/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/castor_windy/bluetooth
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_shinano_castor_windy_defconfig
