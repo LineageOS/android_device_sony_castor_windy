@@ -18,7 +18,3 @@ TARGET_SCREEN_WIDTH := 1920
 
 # Common Sony Resources
 $(call inherit-product, device/sony/common/resources.mk)
-
-# Set those variables here to overwrite the inherited values.
-PRODUCT_BRAND := Sony
-PRODUCT_MANUFACTURER := Sony

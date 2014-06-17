@@ -22,4 +22,6 @@ $(call inherit-product, device/sony/castor_windy/castor_windy.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_castor_windy
 PRODUCT_DEVICE := castor_windy
+PRODUCT_BRAND := Sony
+PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia Z2 Tablet Wifi
