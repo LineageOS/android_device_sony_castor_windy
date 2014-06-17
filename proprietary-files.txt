@@ -6,13 +6,10 @@ etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
 etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
 etc/acdbdata/MTP/MTP_Handset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-etc/firmware/touch_module_id_0x43.img
-etc/firmware/touch_module_id_0x44.img
 etc/firmware/touch_module_id_0x60.img
 etc/firmware/touch_module_id_0x61.img
 etc/mixer_paths.xml
 etc/sensor_def_qcomdev.conf
-etc/sensors_calib.conf
 etc/sysmon.cfg
 lib/libcald_hal.so
 lib/libsysmon_jni.so
