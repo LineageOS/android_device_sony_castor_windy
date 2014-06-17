@@ -1,5 +1,4 @@
-# Copyright (C) 2011 The Android Open Source Project
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,13 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Common castor Resources
-$(call inherit-product, device/sony/castor_windy/full_castor-common.mk)
+# inherit from the common shinano definitions
+include device/sony/shinano-common/BoardConfigCommon.mk
 
-# Inherit from castor device
-$(call inherit-product, device/sony/castor_windy/castor_windy.mk)
+TARGET_SPECIFIC_HEADER_PATH += device/sony/castor_windy/include
 
-# Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_castor_windy
-PRODUCT_DEVICE := castor_windy
-PRODUCT_MODEL := Xperia Z2 Tablet Wifi
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/castor_windy/bluetooth
+
+# Partition information
+BOARD_VOLD_MAX_PARTITIONS := 26
+
+BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01400000
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1056964608
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648

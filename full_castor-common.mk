@@ -13,13 +13,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Common castor Resources
-$(call inherit-product, device/sony/castor_windy/full_castor-common.mk)
+TARGET_SCREEN_HEIGHT := 1200
+TARGET_SCREEN_WIDTH := 1920
 
-# Inherit from castor device
-$(call inherit-product, device/sony/castor_windy/castor_windy.mk)
+# Common Sony Resources
+$(call inherit-product, device/sony/common/resources.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_castor_windy
-PRODUCT_DEVICE := castor_windy
-PRODUCT_MODEL := Xperia Z2 Tablet Wifi
+PRODUCT_BRAND := Sony
+PRODUCT_MANUFACTURER := Sony
