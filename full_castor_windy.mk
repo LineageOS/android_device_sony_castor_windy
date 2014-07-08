@@ -16,6 +16,9 @@
 # Common castor Resources
 $(call inherit-product, device/sony/castor_windy/full_castor-common.mk)
 
+#Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+
 # Inherit from castor device
 $(call inherit-product, device/sony/castor_windy/castor_windy.mk)
 
