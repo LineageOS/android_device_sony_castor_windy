@@ -24,12 +24,8 @@ PRODUCT_COPY_FILES += \
 # Device is a Tablet
 PRODUCT_CHARACTERISTICS := tablet
 
-# This device is xhdpi.  However the platform doesn't
-# currently contain all of the bitmaps at xhdpi density so
-# we do this little trick to fall back to the hdpi version
-# if the xhdpi doesn't exist.
-PRODUCT_AAPT_CONFIG := xlarge hdpi xhdpi xxhdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_AAPT_CONFIG := normal large xlarge
+PRODUCT_AAPT_PREF_CONFIG := xlarge
 
 # Device specific init
 PRODUCT_COPY_FILES += \
