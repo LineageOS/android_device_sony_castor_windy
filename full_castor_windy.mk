@@ -13,6 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.carrier=wifi-only
+
 # Common castor Resources
 $(call inherit-product, device/sony/castor_windy/full_castor-common.mk)
 
