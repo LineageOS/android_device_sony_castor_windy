@@ -19,6 +19,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Common castor Resources
 $(call inherit-product, device/sony/castor_windy/full_castor-common.mk)
 
+DEVICE_PACKAGE_OVERLAYS += \
+     device/sony/castor_windy/overlay-windy
+
 #Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
