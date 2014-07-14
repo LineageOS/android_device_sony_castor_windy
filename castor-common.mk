@@ -15,7 +15,7 @@
 # Inherit the fusion-common definitions
 $(call inherit-product, device/sony/shinano-common/shinano.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/sony/castor_windy/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/castor_windy/overlay-common
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
