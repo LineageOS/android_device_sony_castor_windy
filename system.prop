@@ -5,3 +5,5 @@ ro.cwm.enable_key_repeat=true
 ro.sf.lcd_density=240
 
 ro.use_data_netmgrd=true
+rild.libpath=
+ro.radio.noril=true
