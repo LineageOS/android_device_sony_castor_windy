@@ -5,3 +5,7 @@ on boot
 
     # Touch
     chown system system /sys/devices/virtual/input/clearpad/wakeup_gesture
+
+on property:ro.radio.noril=true
+    stop ril-daemon
+    stop netmgrd
