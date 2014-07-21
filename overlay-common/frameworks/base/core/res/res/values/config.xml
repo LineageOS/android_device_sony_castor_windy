@@ -43,7 +43,11 @@
          config to 7. -->
     <integer name="config_deviceHardwareKeys">0</integer>
 
-    <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">false</bool>
+    <!-- Enable lockscreen rotation by default -->
+    <bool name="config_enableLockScreenRotation">true</bool>
+
+    <!-- If true, the screen can be rotated via the accelerometer in all 4
+         rotations as the default behavior. -->
+    <bool name="config_allowAllRotations">true</bool>
 
 </resources>
