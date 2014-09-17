@@ -19,7 +19,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/castor_windy/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/castor_windy/bluetooth
 
-BOARD_HARDWARE_CLASS := device/sony/castor_windy/cmhw
+BOARD_HARDWARE_CLASS += device/sony/castor_windy/cmhw
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
