@@ -85,11 +85,6 @@ bin/sensors.qcom
 etc/sensor_def_qcomdev.conf
 vendor/lib/libsensor1.so
 
-# Sysmon
-etc/sysmon.cfg
-lib/libsysmon_jni.so
-lib/sysmon/sysmon_v_therm0.so
-
 # TFA98XX DSP
 etc/sforce/sforce_coef_music.bin
 etc/sforce/sforce_coef_video.bin
