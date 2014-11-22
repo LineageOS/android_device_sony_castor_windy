@@ -21,6 +21,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/castor_windy/bluetoot
 
 BOARD_HARDWARE_CLASS += device/sony/castor_windy/cmhw
 
+# For two-stage boot configuration
+TARGET_RECOVERY_DEVICE_DIRS := device/sony/castor_windy
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253605888
