@@ -20,4 +20,4 @@
 #define LED_GREEN_PATH "/sys/class/leds/led:rgb_green/"
 #define LED_BLUE_PATH "/sys/class/leds/led:rgb_blue/"
 
-#define LED_BRIGHTNESS_MIN 188
+#define LED_BRIGHTNESS_MIN 1
