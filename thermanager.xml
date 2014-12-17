@@ -30,7 +30,7 @@
 
 		<!-- device-specific -->
 		<!-- XXX: driver broken:
-		<resource name="backlight" type="sysfs">/sys/class/leds/wled:backlight/max_brightness</resource>
+		<resource name="backlight" type="sysfs">/sys/class/leds/lcd-backlight/max_brightness</resource>
 		-->
 		<resource name="backlight" type="echo" />
 
