@@ -25,3 +25,7 @@ TARGET_RECOVERY_DEVICE_DIRS := device/sony/castor_windy
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253589504 # 12253605888 - 16384
+
+# SELinux
+BOARD_SEPOLICY_DIRS += \
+    device/sony/castor_windy/sepolicy
