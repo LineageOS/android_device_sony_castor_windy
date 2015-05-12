@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
 # Device is a Tablet
 PRODUCT_CHARACTERISTICS := tablet
 
-PRODUCT_AAPT_CONFIG := normal large hdpi
+PRODUCT_AAPT_CONFIG := normal large
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Device specific init
