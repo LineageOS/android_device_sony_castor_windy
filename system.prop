@@ -1,8 +1,8 @@
-# Make keys in CWM repeatable
-ro.cwm.enable_key_repeat=true
-
 # Graphics
 ro.sf.lcd_density=240
+
+# USB path
+ro.usb.pid_suffix=1B1
 
 ro.use_data_netmgrd=true
 rild.libpath=
