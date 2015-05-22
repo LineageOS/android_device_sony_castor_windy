@@ -157,6 +157,7 @@ etc/tfa98xx/VoiceCallSpeaker_top.preset
 # TouchScreen
 etc/firmware/touch_module_id_0x60.img
 etc/firmware/touch_module_id_0x61.img
+etc/touch_fw_update.sh
 usr/idc/clearpad.idc
 
 # WiFi firmware
