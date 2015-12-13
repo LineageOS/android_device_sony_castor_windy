@@ -22,6 +22,11 @@ BOARD_HARDWARE_CLASS += device/sony/castor_windy/cmhw
 # For two-stage boot configuration
 TARGET_RECOVERY_DEVICE_DIRS := device/sony/castor_windy
 
+# Kernel properties
+TARGET_KERNEL_CONFIG := cm_shinano_castor_defconfig
+
+
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253589504 # 12253605888 - 16384
