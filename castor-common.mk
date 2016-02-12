@@ -19,6 +19,7 @@ DEVICE_PACKAGE_OVERLAYS += device/sony/castor_windy/overlay-common
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
     frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
 
 # Device is a Tablet
