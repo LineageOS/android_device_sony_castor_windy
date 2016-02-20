@@ -32,13 +32,18 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc
 
-# Thermal manager
+# NFC
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
+   $(LOCAL_PATH)/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+   $(LOCAL_PATH)/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
 
 # Sensors
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
+
+# Thermal manager
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
 
 # Wifi
 PRODUCT_COPY_FILES += \
