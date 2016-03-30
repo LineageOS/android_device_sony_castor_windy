@@ -15,6 +15,3 @@
 
 TARGET_SCREEN_HEIGHT := 1200
 TARGET_SCREEN_WIDTH := 1920
-
-# Common Sony Resources
-$(call inherit-product, device/sony/common/resources.mk)
