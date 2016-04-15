@@ -116,10 +116,17 @@
 
 	<control name="backlight">
 		<mitigation level="off"><value resource="backlight">255</value></mitigation>
-		<mitigation level="1"><value resource="backlight">192</value></mitigation>
-		<mitigation level="2"><value resource="backlight">128</value></mitigation>
-		<mitigation level="3"><value resource="backlight">64</value></mitigation>
-		<mitigation level="4"><value resource="backlight">51</value></mitigation>
+		<mitigation level="1"><value resource="backlight">224</value></mitigation>
+		<mitigation level="2"><value resource="backlight">208</value></mitigation>
+		<mitigation level="3"><value resource="backlight">196</value></mitigation>
+		<mitigation level="4"><value resource="backlight">176</value></mitigation>
+		<mitigation level="5"><value resource="backlight">144</value></mitigation>
+		<mitigation level="6"><value resource="backlight">128</value></mitigation>
+		<mitigation level="7"><value resource="backlight">112</value></mitigation>
+		<mitigation level="8"><value resource="backlight">96</value></mitigation>
+		<mitigation level="9"><value resource="backlight">80</value></mitigation>
+		<mitigation level="10"><value resource="backlight">64</value></mitigation>
+		<mitigation level="11"><value resource="backlight">32</value></mitigation>
 	</control>
 
 	<control name="gpu">
