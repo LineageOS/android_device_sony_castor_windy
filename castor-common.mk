@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
 
 # call dalvik heap config
-$(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-3072-dalvik-heap.mk)
 
 # call hwui memory config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
