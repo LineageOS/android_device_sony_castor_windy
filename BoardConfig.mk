@@ -20,4 +20,4 @@ TARGET_OTA_ASSERT_DEVICE := SGP511,SGP512,castor_windy
 TARGET_BOOTLOADER_BOARD_NAME := SGP511,SGP512
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_shinano_castor_windy_defconfig
+TARGET_KERNEL_CONFIG := lineageos_shinano_castor_windy_defconfig
