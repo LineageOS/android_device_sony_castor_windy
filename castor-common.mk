@@ -22,9 +22,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
     frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
     
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/BCM4339.hcd:system/etc/firmware/BCM43xx.hcd
-
 # Device is a Tablet
 PRODUCT_CHARACTERISTICS := tablet
 
