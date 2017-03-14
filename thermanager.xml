@@ -30,9 +30,8 @@
 
 		<!-- device-specific -->
 		<resource name="backlight" type="sysfs">/sys/class/leds/lcd-backlight/max_brightness</resource>
-
-		<resource name="temp-emmc" type="msm-adc">/sys/devices/00-vadc-3100/emmc_therm</resource>
-		<resource name="temp-batt" type="msm-adc">/sys/devices/00-vadc-3100/batt_therm</resource>
+		<resource name="temp-emmc" type="msm-adc">/sys/devices/qpnp-vadc-18/emmc_therm</resource>
+		<resource name="temp-batt" type="msm-adc">/sys/devices/qpnp-vadc-18/batt_therm</resource>
 		<resource name="kgsl-3d0" type="sysfs">/sys/class/kgsl/kgsl-3d0/max_gpuclk</resource>
 		<resource name="dc" type="sysfs">/sys/class/power_supply/qpnp-dc/current_max</resource>
 		<resource name="usb" type="sysfs">/sys/class/power_supply/usb/current_max</resource>
@@ -51,10 +50,6 @@
 			<resource name="zone7" />
 			<resource name="zone8" />
 		</resource>
-
-		<!-- TODO: -->
-		<resource name="camera" type="echo" />
-		<resource name="modem" type="echo" />
 
 		<resource name="shutdown" type="halt" delay="5" />
 	</resources>
@@ -96,17 +91,6 @@
 		<mitigation level="7"><value resource="charger">7</value></mitigation>
 		<mitigation level="8"><value resource="charger">8</value></mitigation>
 		<mitigation level="9"><value resource="charger">9</value></mitigation>
-	</control>
-
-	<control name="modem">
-		<mitigation level="off"><value resource="modem">0</value></mitigation>
-		<mitigation level="1"><value resource="modem">1</value></mitigation>
-	</control>
-
-	<control name="camera">
-		<mitigation level="off"><value resource="camera">NORMAL</value></mitigation>
-		<mitigation level="1"><value resource="camera">WARNING</value></mitigation>
-		<mitigation level="2"><value resource="camera">CRITICAL</value></mitigation>
 	</control>
 
 	<control name="shutdown">
@@ -242,16 +226,6 @@
 		</threshold>
 		<threshold trigger="120" clear="110">
 			<mitigation name="gpu" level="5" />
-		</threshold>
-	</configuration>
-
-	<!-- modem -->
-	<configuration sensor="temp-emmc">
-		<threshold>
-			<mitigation name="modem" level="off" />
-		</threshold>
-		<threshold trigger="464" clear="452">
-			<mitigation name="modem" level="1" />
 		</threshold>
 	</configuration>
 
