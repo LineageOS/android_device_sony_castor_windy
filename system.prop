@@ -1,9 +1,0 @@
-# Graphics
-ro.sf.lcd_density=240
-
-# USB path
-ro.usb.pid_suffix=1B1
-
-ro.use_data_netmgrd=true
-rild.libpath=
-ro.radio.noril=true
