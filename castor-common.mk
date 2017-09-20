@@ -44,6 +44,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.sf.lcd_density=240
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
+
 # USB path
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.usb.pid_suffix=1B1
