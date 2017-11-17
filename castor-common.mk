@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal manager
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
+   $(LOCAL_PATH)/thermanager.xml:system/vendor/etc/thermanager.xml
 
 # Wifi
 PRODUCT_COPY_FILES += \
