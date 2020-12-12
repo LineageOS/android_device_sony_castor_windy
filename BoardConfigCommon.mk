@@ -15,8 +15,6 @@
 # inherit from the common shinano definitions
 include device/sony/shinano-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/castor_windy/include
-
 # For two-stage boot configuration
 TARGET_RECOVERY_DEVICE_DIRS := device/sony/castor_windy
 
