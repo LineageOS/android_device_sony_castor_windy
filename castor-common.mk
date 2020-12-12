@@ -32,6 +32,11 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc
 
+# Audio
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/audio/audio_policy.conf:system/vendor/etc/audio_policy.conf \
+   $(LOCAL_PATH)/audio/mixer_paths.xml:system/vendor/etc/mixer_paths.xml
+
 # Thermal manager
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/thermanager.xml:system/vendor/etc/thermanager.xml
