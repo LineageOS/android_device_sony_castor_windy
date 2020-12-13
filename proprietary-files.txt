@@ -48,7 +48,6 @@ etc/firmware/adsp.mdt
 etc/firmware/BCM43xx.hcd
 
 # Camera
-lib/libcald_hal.so
 vendor/camera/flash.dat
 vendor/camera/LGI02BN1_CACAO.dat
 vendor/camera/LGI02BN1.dat
