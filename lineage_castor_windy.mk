@@ -17,9 +17,6 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=wifi-only
 
-# Common castor Resources
-$(call inherit-product, device/sony/castor_windy/full_castor-common.mk)
-
 DEVICE_PACKAGE_OVERLAYS += \
      device/sony/castor_windy/overlay
 
