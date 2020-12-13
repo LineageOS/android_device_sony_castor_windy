@@ -49,17 +49,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
 
-# LCD
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.sf.lcd_density=240
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
-# USB path
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.usb.pid_suffix=1B1
+# Properties
+include $(LOCAL_PATH)/system_prop-common.mk
    
 # NFC
 PRODUCT_COPY_FILES += \
