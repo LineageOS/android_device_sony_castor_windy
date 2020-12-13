@@ -16,10 +16,9 @@ BOARD_HAVE_RADIO := false
 
 # Inherit the castor-common definitions
 $(call inherit-product, device/sony/castor_windy/castor-common.mk)
-   
-# WiFi only
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.radio.noril=true
+
+# Properties
+include $(LOCAL_PATH)/system_prop.mk
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/castor_windy/castor_windy-vendor.mk)

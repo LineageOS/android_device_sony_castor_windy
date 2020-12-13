@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.carrier=wifi-only
-
 DEVICE_PACKAGE_OVERLAYS += \
      device/sony/castor_windy/overlay
 
