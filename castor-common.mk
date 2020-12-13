@@ -43,7 +43,7 @@ TARGET_SCREEN_WIDTH := 1920
 
 # Thermal manager
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/thermanager.xml:system/vendor/etc/thermanager.xml
+   $(LOCAL_PATH)/configs/thermanager.xml:system/vendor/etc/thermanager.xml
 
 # Wifi
 PRODUCT_COPY_FILES += \
