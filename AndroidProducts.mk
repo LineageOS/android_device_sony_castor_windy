@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-	 $(LOCAL_DIR)/lineage_castor_windy.mk
+    $(LOCAL_DIR)/lineage_castor_windy.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_castor_windy-user \
