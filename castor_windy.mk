@@ -20,5 +20,9 @@ $(call inherit-product, device/sony/castor_windy/castor-common.mk)
 # Properties
 include $(LOCAL_PATH)/system_prop.mk
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/castor_windy/castor_windy-vendor.mk)
