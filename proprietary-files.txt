@@ -107,11 +107,6 @@ etc/firmware/modem.b26
 etc/firmware/modem.b27
 etc/firmware/modem.mdt
 
-# NFC
-etc/libnfc-nxp.conf
-etc/libnfc-brcm.conf
-vendor/firmware/libpn547_fw.so
-
 # Security
 bin/suntrold
 
