@@ -27,4 +27,4 @@ export DEVICE=castor_windy
 export DEVICE_COMMON=shinano-common
 export VENDOR=sony
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
