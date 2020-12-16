@@ -17,6 +17,10 @@ BOARD_HAVE_RADIO := false
 # Inherit the castor-common definitions
 $(call inherit-product, device/sony/castor_windy/castor-common.mk)
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    device/sony/castor_windy/overlay
+
 # Properties
 include $(LOCAL_PATH)/system_prop.mk
 
