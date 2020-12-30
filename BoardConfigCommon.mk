@@ -17,9 +17,6 @@
 # inherit from the common shinano definitions
 include device/sony/shinano-common/BoardConfigCommon.mk
 
-# For two-stage boot configuration
-TARGET_RECOVERY_DEVICE_DIRS := device/sony/castor_windy
-
 # Double Tap to Wake
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
 
