@@ -14,11 +14,14 @@
 # limitations under the License.
 #
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+
+# Inherit from castor_windy device
+$(call inherit-product, device/sony/castor_windy/castor_windy.mk)
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
-
-# Inherit from castor device
-$(call inherit-product, device/sony/castor_windy/castor_windy.mk)
 
 PRODUCT_NAME := lineage_castor_windy
 PRODUCT_DEVICE := castor_windy
