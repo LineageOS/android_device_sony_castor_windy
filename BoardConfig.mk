@@ -22,3 +22,6 @@ TARGET_OTA_ASSERT_DEVICE := SGP511,SGP512,castor_windy
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := lineageos_shinano_castor_windy_defconfig
+
+# Inherit from proprietary files
+include vendor/sony/castor_windy/BoardConfigVendor.mk
