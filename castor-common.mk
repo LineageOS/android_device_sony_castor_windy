@@ -53,6 +53,3 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 include $(LOCAL_PATH)/system_prop-common.mk
-
-# Inherit from proprietary files
-include vendor/sony/castor_windy/BoardConfigVendor.mk
