@@ -17,11 +17,16 @@
 # inherit from the common castor definitions
 include device/sony/castor_windy/BoardConfigCommon.mk
 
+DEVICE_PATH := device/sony/castor_windy
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGP511,SGP512,castor_windy
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := lineageos_shinano_castor_windy_defconfig
+
+# HIDL
+ODM_MANIFEST_FILES += $(DEVICE_PATH)/manifest_radiodisable.xml
 
 # Inherit from proprietary files
 include vendor/sony/castor_windy/BoardConfigVendor.mk

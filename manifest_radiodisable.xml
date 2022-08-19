@@ -1,0 +1,10 @@
+<manifest version="1.0" type="device" target-level="legacy">
+    <hal format="hidl" override="true">
+        <name>android.hardware.radio</name>
+        <transport>hwbinder</transport>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>android.hardware.radio.deprecated</name>
+        <transport>hwbinder</transport>
+    </hal>
+</manifest>
